@@ -16,13 +16,13 @@ const Products = () => {
         //Calling Thunk
         dispatch(fetchProductsBR());
 
-        const fetchProducts = async () => {
-            // const res = await fetch('https://fakestoreapi.com/products');
-            // const data = await res.json();
-            // console.log(data);
-            // setProducts(data);
-        };
-        fetchProducts();
+        // const fetchProducts = async () => {
+        //     const res = await fetch('https://fakestoreapi.com/products');
+        //     const data = await res.json();
+        //     console.log(data);
+        //     setProducts(data);
+        // };
+        // fetchProducts();
     }, []);
 
     const handleAdd = (product) => {
