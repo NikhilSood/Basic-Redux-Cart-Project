@@ -13,10 +13,10 @@ const Products = () => {
     // const [products, setProducts] = useState([]);
 
     useEffect(() => {
+        //Calling Thunk
+        dispatch(fetchProductsBR());
 
         const fetchProducts = async () => {
-            //Calling Thunk
-            dispatch(fetchProductsBR());
             // const res = await fetch('https://fakestoreapi.com/products');
             // const data = await res.json();
             // console.log(data);
